@@ -1,0 +1,90 @@
+@media (max-width: 1335px){
+    header{
+        padding: 15px;
+        transition: .2s;
+    }
+    .icons{
+        padding: 0 3%;
+        transition: .2s;
+    }
+    .scroll-down{
+        right: 3%;
+        transition: .2s;
+    }
+}
+
+@media (max-width: 1260px){
+    section{
+        padding: 0 12%;
+        transition: .2s;
+    }
+}
+
+@media (max-width: 1140px){
+    .hero-text h1{
+        font-size: 55px;
+        margin: 0 0 10px;
+    }
+    .hero-text h5{
+        margin-bottom: 25px;
+    }
+}
+@media (max-width: 795px){
+    section{
+        padding: 0 3%;
+        transition: .2s;
+    }
+    .hero{
+        padding: 0;
+        text-align: center;
+    }
+    .hero-text{
+        padding-top: 115px;
+    }
+    .hero-text p{
+        font-size: 10px;
+    }
+    .hero-img{
+        text-align: center;
+    }
+    .hero-img img{
+        width: 100%;
+        height: auto;
+    }
+    .hero{
+        height: 100%;
+        gap: 1rem;
+        grid-template-columns: 1fr;
+    }
+    .icons{
+        display: none;
+    }
+    .scroll-down{
+        display: none;
+    }
+    #menu-icon{
+        display: block;
+    }
+    .nav-list{
+        position: absolute;
+        top: 100%;
+        right: -100%;
+        width: 300px;
+        height: 40vh;
+        background: #4d9559;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        padding: 20px 20px;
+        transition: all .55s ease;
+    }
+    .nav-list a{
+        margin-left: 0;
+        display: block;
+        margin: 4px 0;
+    }
+
+    .nav-list.open{
+        right: 0;
+    }
+}
